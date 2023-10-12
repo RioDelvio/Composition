@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="presentation.ChooseLevelFragment"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_choose"
+        android:text="@string/choose_level"
+        android:textSize="26sp"
+        android:layout_margin="14dp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/button_level_test"
+        android:textStyle="bold"
+        android:text="@string/test_level"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/button_level_easy"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="@string/easy_level"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:id="@+id/button_level_medium"
+        android:textStyle="bold"
+        android:text="@string/medium_level"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:id="@+id/button_level_hard"
+        android:textStyle="bold"
+        android:text="@string/hard_level"/>
+
+
+</LinearLayout>
